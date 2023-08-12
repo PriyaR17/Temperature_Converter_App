@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+    padding: 10px;
+}
+header h1{
+    font-size: 3rem;
+    text-align: center;
+}
+header h2{
+    text-align: center;
+}
+.box{
+    text-align: center;
+    width: 500px;
+}
+
+button{
+    width: 200px;
+    padding: 10px 20px;
+	font-size: 16px;
+	border: none;
+	background-color: #63abf8;
+	color: #fff;
+	border-radius: 5px;
+	cursor: pointer;
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+}
+button:hover {
+	background-color: #0069d9;
+}
+footer{
+    text-align: center;
+    padding: 50px;
+}
+.container{
+    align-items: center;
+    display: flex;
+	flex-direction: column;
+}
+label{
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+}
+.input-box{
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+}
+input{
+    width: 200px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+select{
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 10px;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title> 
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body bgcolor="#fab1a0">
+    <div class="container">
+        <header>
+            <h1>Temperature Converter</h1>
+            <h2>Temperature conversion of Fahrenheit (°F) and Celsius (°C)</h2>
+        </header>
+        <main>
+            <div class="box">
+                <label>Enter temperature:</label>
+                <input type="number" id="inputTemp" placeholder="Enter temperature" >
+                <br>
+                <label >Converted temperature from:</label>
+                <select  id="input" >
+                    <option value="select">-Select Unit-</option>
+                    <option value="celsius">Celsius</option>
+                    <option value="fahrenheit">Fahrenheit</option>
+                    
+                </select>
+                <br>
+                <label>Converted temperature to:</label>
+                
+                <select id="output" >
+                    <option value="select">-Select Unit-</option>
+                    <option value="celsius">Celsius</option>
+                    <option value="fahrenheit">Fahrenheit</option>
+                    
+                </select>
+                <br>
+                <label >Result:</label>
+                <input type="number" id="outputTemp" readonly >
+                <br>
+                <button class=" btn" onclick="convertTemperature()">Convert</button>
+            </div>
+        </main>
+        <footer>
+            Copyright &copy; 2023 TemperatureConversion by Priya Rastogi | Terms of Use | Privacy Policy
+        </footer>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
